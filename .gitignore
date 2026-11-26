@@ -1,0 +1,26 @@
+# Secrets (API keys for OpenAI, Pinecone)
+.env
+.env.*
+!.env.example
+
+# Virtual environment (conda env created with `conda create -p venv`)
+venv/
+.venv/
+env/
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
